@@ -1,0 +1,9 @@
+embedding_model: all-MiniLM-L6-v2
+vector_store_path: storage/vector_store.faiss
+meta_store_path: storage/meta_store.db
+raw_files_dir: storage/raw/
+chunk_size: 500  # tokens
+search:
+  alpha: 0.2  # weight for keyword score
+  beta: 0.8   # weight for semantic score
+  top_k: 5 

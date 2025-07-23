@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu
+pdfplumber
+scikit-learn
+numpy
+pyyaml 
